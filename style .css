@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(img/BR-pt-20230417-popsignuptwoweeks-perspective_alpha_website_medium.jpg) no-repeat;
+  backdrop-filter: brightness(0.50);
+}
+
+header {
+  background: linear-gradient(180deg,rgba(0,0,0,.5) 0,transparent);
+  border-bottom: transparent;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+header img {
+  width: 10.5rem;
+  margin: 25px 40px;
+  filter: brightness(1.1);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.login-content {
+  width: 450px;
+  height: 660px;
+  background-color: rgba(0,0,0,.75);
+  border-radius: 4px;
+  padding: 60px 68px 40px;
+  margin: 0px 0px 90px;
+}
+
+.login-form {
+  height: 370px;
+}
+
+.login-form h1 {
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 28px;
+}
+
+.login-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input[type=text] {
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background-color: #333;
+  padding: 16px 20px;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+input[type=password] {
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background-color: #333;
+  padding: 16px 20px;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+::placeholder {
+  color: #8c8c8c;
+}
+
+button {
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 24px 0 12px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.rememberMe {
+  color: #B3B3B3;
+  font-size: 14px;
+}
+
+.rememberMe a {
+  text-decoration: none;
+  color: #B3B3B3;
+  margin-left: 60px;
+}
+
+footer {
+  height: 262.9px;
+  background-color: rgba(0,0,0,.75);
+}
+
+.login-form-other {
+  color: #737373;
+  margin-top: 16px;
+}
+
+.login-form-other a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.login-form-other p {
+  color: #8c8c8c;
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.duvidas {
+  color: #737373;
+  width: 65vw;
+  margin-bottom: 30px;
+}
+
+.duvidas a{
+  text-decoration: none;
+  color: #737373;
+}
+
+.duvidas a:hover {
+  text-decoration: underline;
+}
+
+.links {
+  display: flex;
+  gap: 160px;
+  margin-bottom: 16px;
+  list-style: none;
+}
+
+.links a{
+  text-decoration: none;
+  color: #737373;
+  font-size: 13px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.links-two {
+  display: flex;
+  gap: 146px;
+  margin-bottom: 16px;
+  list-style: none;
+}
+
+.links-two a{
+  text-decoration: none;
+  color: #737373;
+  font-size: 13px;
+}
+
+.links-two a:hover {
+  text-decoration: underline;
+}
+
+
+.lang {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: black;
+  color: #737373;
+  border: 1px solid #474747;
+}
